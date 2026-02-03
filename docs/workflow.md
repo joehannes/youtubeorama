@@ -21,6 +21,7 @@ Automating third-party services like Suno or YouTube often violates terms of ser
 6. Create a simple video with FFmpeg (image + audio).
 7. Upload and schedule.
 8. Optional: Run Playwright automation for Suno generation (see `docs/suno_automation.md`).
+9. Optional: Generate AI cover images via Hugging Face (see `docs/image_generation.md`).
 
 ## Progress Milestones
 1. Define base topics + channel profiles.
