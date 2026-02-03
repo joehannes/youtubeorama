@@ -1,0 +1,16 @@
+{
+  "name": "youtubeorama",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automation and planning tools for the YouTube Song Factory.",
+  "type": "module",
+  "scripts": {
+    "suno:run": "node scripts/suno_automation.js --config config/suno_automation.json",
+    "suno:dry": "node scripts/suno_automation.js --config config/suno_automation.json --dry-run",
+    "images:run": "node scripts/generate_cover_images.js --config config/image_generation.json",
+    "images:dry": "node scripts/generate_cover_images.js --config config/image_generation.json --dry-run"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
