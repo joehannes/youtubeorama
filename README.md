@@ -14,6 +14,7 @@ This repository contains the planning system and templates for operating 70 YouT
    ```
 4. Fill the generated files under `output/` with lyrics, prompts, and metadata.
 5. Follow `docs/workflow.md` for the full manual process and automation considerations.
+6. If you want Playwright automation for Suno, read `docs/suno_automation.md`.
 
 ## Repository Layout
 - `chatgpt_context.txt`: Core instructions for ChatGPT usage.
@@ -22,6 +23,7 @@ This repository contains the planning system and templates for operating 70 YouT
 - `scripts/`: Helper scripts to scaffold weekly files.
 - `docs/`: Workflow notes and constraints.
   - `docs/automation_options.md`: Automation path comparisons and risk notes.
+  - `docs/suno_automation.md`: Playwright automation instructions for Suno.
 
 ## Notes
 This repo intentionally avoids hardcoding automation for third-party services with restrictive terms of service. Use it as the central planning system and add automation where legally and operationally appropriate.
