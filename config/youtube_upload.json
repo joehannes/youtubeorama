@@ -1,0 +1,7 @@
+{
+  "credentialsPath": "config/youtube_client_secret.json",
+  "channelsPath": "config/youtube_channels.json",
+  "inputJsonl": "input/youtube_jobs.jsonl",
+  "defaultPrivacyStatus": "private",
+  "categoryId": "10"
+}

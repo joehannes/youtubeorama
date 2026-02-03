@@ -16,6 +16,7 @@ This repository contains the planning system and templates for operating 70 YouT
 5. Follow `docs/workflow.md` for the full manual process and automation considerations.
 6. If you want Playwright automation for Suno, read `docs/suno_automation.md`.
 7. For AI cover images, read `docs/image_generation.md`.
+8. For YouTube uploads via the Data API, read `docs/youtube_upload.md`.
 
 ## Repository Layout
 - `chatgpt_context.txt`: Core instructions for ChatGPT usage.
@@ -26,6 +27,12 @@ This repository contains the planning system and templates for operating 70 YouT
   - `docs/automation_options.md`: Automation path comparisons and risk notes.
   - `docs/suno_automation.md`: Playwright automation instructions for Suno.
   - `docs/image_generation.md`: AI cover image generation instructions.
+  - `docs/youtube_upload.md`: YouTube Data API upload instructions.
+
+## Upload Conventions
+- Store per-video descriptions under `output/descriptions/`.
+- Store rendered MP4s under `output/videos/`.
+- Use `input/youtube_jobs.jsonl` to point to `descriptionPath`, `videoPath`, and a `channelKey` that maps to `config/youtube_channels.json`.
 
 ## Notes
 This repo intentionally avoids hardcoding automation for third-party services with restrictive terms of service. Use it as the central planning system and add automation where legally and operationally appropriate.

@@ -22,6 +22,7 @@ Automating third-party services like Suno or YouTube often violates terms of ser
 7. Upload and schedule.
 8. Optional: Run Playwright automation for Suno generation (see `docs/suno_automation.md`).
 9. Optional: Generate AI cover images via Hugging Face (see `docs/image_generation.md`).
+10. Optional: Upload to YouTube via Data API (see `docs/youtube_upload.md`).
 
 ## Progress Milestones
 1. Define base topics + channel profiles.
