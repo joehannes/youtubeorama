@@ -1,0 +1,27 @@
+{
+  "chromeExecutablePath": "/usr/bin/google-chrome",
+  "userDataDir": "/home/you/.config/google-chrome",
+  "profileDirectory": "Default",
+  "headless": false,
+  "slowMoMs": 50,
+  "baseUrl": "https://suno.com",
+  "inputJsonl": "input/suno_jobs.jsonl",
+  "downloadDir": "output/suno_downloads",
+  "selectors": {
+    "createButton": "text=Create",
+    "lyricsTab": "text=Lyrics",
+    "promptTab": "text=Style",
+    "lyricsInput": "textarea[name='lyrics']",
+    "promptInput": "textarea[name='prompt']",
+    "titleInput": "input[name='title']",
+    "generateButton": "text=Create",
+    "songListItem": "[data-testid='song-row']",
+    "downloadButton": "text=Download",
+    "downloadMp3Option": "text=MP3"
+  },
+  "timeouts": {
+    "navigationMs": 60000,
+    "actionMs": 15000,
+    "songGenerationMs": 240000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "provider": "huggingface",
+  "model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "apiBaseUrl": "https://api-inference.huggingface.co/models",
+  "apiTokenEnv": "HF_TOKEN",
+  "inputJsonl": "input/image_jobs.jsonl",
+  "outputDir": "output/suno_images",
+  "image": {
+    "width": 1280,
+    "height": 720,
+    "steps": 30
+  },
+  "retry": {
+    "attempts": 3,
+    "backoffMs": 1500
+  }
+}

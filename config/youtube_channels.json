@@ -1,0 +1,10 @@
+{
+  "austria_johannes": {
+    "channelName": "Johannes Example",
+    "tokenPath": "config/tokens/youtube_austria_johannes.json"
+  },
+  "dominican_daniel": {
+    "channelName": "Daniel Example",
+    "tokenPath": "config/tokens/youtube_dominican_daniel.json"
+  }
+}
