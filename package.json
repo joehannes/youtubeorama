@@ -8,12 +8,9 @@
     "suno:run": "node scripts/suno_automation.js --config config/suno_automation.json",
     "suno:dry": "node scripts/suno_automation.js --config config/suno_automation.json --dry-run",
     "images:run": "node scripts/generate_cover_images.js --config config/image_generation.json",
-    "images:dry": "node scripts/generate_cover_images.js --config config/image_generation.json --dry-run",
-    "youtube:run": "node scripts/youtube_upload.js --config config/youtube_upload.json",
-    "youtube:dry": "node scripts/youtube_upload.js --config config/youtube_upload.json --dry-run"
+    "images:dry": "node scripts/generate_cover_images.js --config config/image_generation.json"
   },
   "dependencies": {
-    "googleapis": "^140.0.0",
     "playwright": "^1.47.0"
   }
 }
